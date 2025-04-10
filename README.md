@@ -22,7 +22,7 @@ This repository contains a complete and modular **shell-scripted bioinformatics 
 📁 Project Directory Structure
 ```
 NGS_pipeline/
-├── Analysis/                # Final outputs and analysis results
+├── Analysis/               # Final outputs and analysis results
 │   └── Scripts/            # All pipeline and shell scripts
 │
 ├── FastQ/                  # Input FASTQ files
