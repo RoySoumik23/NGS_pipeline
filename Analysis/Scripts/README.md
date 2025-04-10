@@ -58,6 +58,21 @@ This folder contains various supplementary scripts to support different steps of
 ---
 
 ## How to Use
+Sequence of Execution (Flowchart)
+If you decide to run these scripts one by one, here is the recommended order:
+
+```
+1. fastqc.sh         -> Quality control check.
+2. fastp.sh          -> Quality trimming of raw reads
+3. alignment.sh / alignment2.sh  -> Align reads (single-end or paired-end).
+4. indexing.sh       -> Generate reference genome index files.
+5. addreadgroups.sh / addreadgroups2.sh  -> Add read groups (if not done in alignment).
+6. sorting.sh / sorting2.sh  -> Sort BAM files.
+7. indexbam.sh / indexbam2.sh  -> Index BAM files.
+8. mutation_calling.sh / mutation_calling2.sh -> Perform mutation calling.
+9. somatic_calling.sh / somatic_calling2.sh -> Call somatic variants.
+```
+This sequence outlines a standard NGS workflow for processing raw reads, performing quality control, aligning to a reference genome, and calling mutations and somatic variants.
 
 These scripts can be executed individually for specific tasks or used in combination depending on your needs. However, to run the full pipeline from start to finish, refer to the `whole_pipeline.sh` script located in the main directory.
 
