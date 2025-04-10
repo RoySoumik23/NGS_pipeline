@@ -94,33 +94,23 @@ chmod +x variant_pipeline.sh
 
 🧪 Script Highlights
 Modular and well-commented: Each block is logically structured with informative headers.
-
 Error-handling and file checks: Prevents overwriting and re-runs.
 
 ### IGV Integration: Automatically launches IGV with the aligned BAM and VCF files.
 
 ## 🧠 Notes & Best Practices
 Use high-quality reference genomes (e.g., hg38.fa) and consistent annotation sources.
-
 For somatic mutation calling in tumor/normal studies, consider matched controls.
-
 Always visualize outputs in IGV to cross-check variant calls.
 
-📌 Project Structure
-```bash
-variant-calling-pipeline/
-│
-├── variant_pipeline.sh     # Main pipeline script
-├── README.md               # This file
-├── samples/                # (Optional) FASTQ input data
-├── output/                 # All output files
-└── logs/                   # Pipeline logs (to be implemented)
-```
 ## 👨‍💻 Author
 ```
-## Soumik Roy
-M.Tech in Biology, IIT Hyderabad
-Dissertation Focus: AI/ML in Cancer Genomics
+Project Context:
+This pipeline was developed and delivered as part of my Teaching Assistant (TA) duties for the MTech course on Cancer Genomics and AI/ML applications. The primary objective was to guide postgraduate students through a complete, hands-on bioinformatics workflow — from raw sequencing reads to variant identification — using industry-standard tools and reference datasets.
+
+Soumik Roy
+M.Tech in Medical BioTech.
 Email: [bt23mtech11010.iith.ac.in]
-GitHub: github.com/RoySoumik23
+Computational Genomics And Transcriptomics (CGnT) Lab
+Indian Institute of Technology Hyderabad (IIT H)
 ```
