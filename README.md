@@ -20,9 +20,7 @@ This repository contains a complete and modular **shell-scripted bioinformatics 
 
 ---
 📁 Project Directory Structure
-bash
-Copy
-Edit
+```
 NGS_pipeline/
 ├── Analysis/                # Final outputs and analysis results
 │   └── Scripts/            # All pipeline and shell scripts
@@ -44,6 +42,7 @@ NGS_pipeline/
 │   └── ...                 # Other index files (.amb, .sa, etc.)
 │
 └── README.md               # Project overview and usage instructions
+```
 ---
 
 ## 🛠️ Tools Used
