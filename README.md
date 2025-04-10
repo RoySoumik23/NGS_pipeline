@@ -156,9 +156,9 @@ chmod +x <file_name>
 Clone this repository and edit your sample names and paths in the script.
 ```bash
 git clone https://github.com/RoySoumik23/NGS_pipeline.git
-cd variant-calling-pipeline
-chmod +x variant_pipeline.sh
-./variant_pipeline.sh
+cd NGS_pipeline
+chmod +x whole_pipeline.sh
+./whole_pipeline.sh
 ```
 
 Ensure all required tools are available in your PATH, or modify the script to set tool paths explicitly.
