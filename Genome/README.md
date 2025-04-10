@@ -23,11 +23,10 @@ Genome/
 ├── hg38.fa.pac          # BWA index files
 ├── hg38.fa.sa           # BWA index files
 ```
-
-This structure is essential for ensuring that the reference genome is properly indexed and ready for alignment and variant calling in the pipeline.
 ---
+This structure is essential for ensuring that the reference genome is properly indexed and ready for alignment and variant calling in the pipeline.
 
-🔍 **Key Highlights:**
+### Key Highlights:
 - **Release:** December 2013
 - **Build ID:** GRCh38 / hg38
 - **Organism:** Homo sapiens (human)
@@ -39,7 +38,7 @@ This structure is essential for ensuring that the reference genome is properly i
 - **Coordinate System:** 1-based
 - **Chromosome Naming:** chr1, chr2, ..., chrX, chrY, chrM
 
-### 📦 Reference Files You Need:
+### Reference Files You Need:
 
 To use hg38 with this pipeline, ensure the following files are present:
 
