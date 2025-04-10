@@ -90,19 +90,17 @@ wget https://github.com/broadinstitute/gatk/releases/download/4.6.1.0/gatk-4.6.1
 unzip gatk-4.6.1.0.zip
 ./gatk-4.6.1.0/gatk --help
 ```
-    Strelka Installation (Alternative to GATK):
-    Strelka can be used as an alternative to GATK for somatic variant calling.
+Strelka Installation (Alternative to GATK):
+Strelka can be used as an alternative to GATK for somatic variant calling.
+Since Strelka requires Python 2, you need to have it installed. Then follow these steps:
 
-    Since Strelka requires Python 2, you need to have it installed. Then follow these steps:
-    ```bash
-      wget https://github.com/Illumina/strelka/releases/download/v2.9.10/strelka-2.9.10.centos6_x86_64.tar.gz
+    wget https://github.com/Illumina/strelka/releases/download/v2.9.10/strelka-2.9.10.centos6_x86_64.tar.gz
     tar -xvzf strelka-2.9.10.centos6_x86_64.tar.gz
     cd strelka-2.9.10.centos6_x86_64
-    ```
-    Strelka can be called like this:
-    ```bash
+
+To run Strelka, use the following command to initiate the workflow:
+
     python2 /home3/workshop/strelka-2.9.10.centos6_x86_64/bin/configureStrelkaSomaticWorkflow.py --help
-    ```
 
 Java 17 is required:
 ```bash
