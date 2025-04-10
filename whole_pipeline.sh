@@ -14,7 +14,7 @@ WORK_DIR="/home/shivalik2/Soumik/TA_duty"
 GENOME_DIR="$WORK_DIR/Genome"
 SOFTWARE_DIR="$WORK_DIR/Software"
 FASTQ_DIR="$WORK_DIR/FastQC"
-ANALYSIS_DIR="$WORK_DIR/Analysis/old_results"
+ANALYSIS_DIR="$WORK_DIR/Analysis"
 BWA="$SOFTWARE_DIR/bwa-0.7.17/bwa/bwa"
 SAMTOOLS="$SOFTWARE_DIR/samtools-1.21/samtools"
 GATK="$SOFTWARE_DIR/gatk-4.6.1.0/gatk"
@@ -57,7 +57,7 @@ $FASTQC "$FASTQ_DIR"/*.fastq.gz -o "$FASTQ_DIR/results"
 
 
 ################################################################################
-# 				<fastp> if needed                              #
+#                              <fastp> if needed                               #
 
 # Input and output files                                                       #
 #inputR1="${WORK_DIR}folder1/sample1_read1.fastq.gz"                           #
