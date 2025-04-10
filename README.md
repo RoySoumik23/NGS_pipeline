@@ -46,7 +46,7 @@ NGS_pipeline/
 ```
 ---
 
-## Tools Used
+## 🛠️ Tools Used
 
 | Tool      | Version Tested | Description |
 |-----------|----------------|-------------|
@@ -55,6 +55,7 @@ NGS_pipeline/
 | `Samtools`| v1.21           | Tools for BAM/SAM file manipulation |
 | `GATK`    | v4.6.1.0        | Genome Analysis Toolkit for somatic/mutation calling |
 | `IGV`     | v2.19.2         | Integrative Genomics Viewer for visualizing variants |
+| `Strelka` | v2.9.10	        | Alternative to GATK for somatic variant calling |
 
 ---
 
@@ -83,12 +84,26 @@ Note: You may need to install dependencies. Use the following command:
 sudo apt install libncurses-dev liblzma-dev libbz2-dev libcurl4-openssl-dev
 ```
 
-### 3. GATK v4.6.1.0
+### 3. GATK v4.6.1.0 (or Strelka alternative)
 ```bash
 wget https://github.com/broadinstitute/gatk/releases/download/4.6.1.0/gatk-4.6.1.0.zip
 unzip gatk-4.6.1.0.zip
 ./gatk-4.6.1.0/gatk --help
 ```
+    Strelka Installation (Alternative to GATK):
+    Strelka can be used as an alternative to GATK for somatic variant calling.
+
+    Since Strelka requires Python 2, you need to have it installed. Then follow these steps:
+    ```bash
+      wget https://github.com/Illumina/strelka/releases/download/v2.9.10/strelka-2.9.10.centos6_x86_64.tar.gz
+    tar -xvzf strelka-2.9.10.centos6_x86_64.tar.gz
+    cd strelka-2.9.10.centos6_x86_64
+    ```
+    Strelka can be called like this:
+    ```bash
+    python2 /home3/workshop/strelka-2.9.10.centos6_x86_64/bin/configureStrelkaSomaticWorkflow.py --help
+    ```
+
 Java 17 is required:
 ```bash
 sudo apt update
