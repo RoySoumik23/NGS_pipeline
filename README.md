@@ -61,7 +61,7 @@ NGS_pipeline/
 ## Installation Guide  
 To replicate and run this pipeline successfully, ensure the following bioinformatics tools are installed on your system. Below are the step-by-step instructions for downloading, extracting, and setting up each tool.
 
-1. FastQC v0.12.1
+### 1. FastQC v0.12.1
 ```bash
 wget https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.1.zip
 unzip fastqc_v0.12.1.zip
@@ -69,7 +69,7 @@ chmod +x FastQC/fastqc
 ./FastQC/fastqc --help
 ```
 
-2. Samtools v1.21
+### 2. Samtools v1.21
 ```bash
 wget https://github.com/samtools/samtools/releases/download/1.21/samtools-1.21.tar.bz2
 tar -xvjf samtools-1.21.tar.bz2
@@ -83,7 +83,7 @@ Note: You may need to install dependencies. Use the following command:
 sudo apt install libncurses-dev liblzma-dev libbz2-dev libcurl4-openssl-dev
 ```
 
-3. GATK v4.6.1.0
+### 3. GATK v4.6.1.0
 ```bash
 wget https://github.com/broadinstitute/gatk/releases/download/4.6.1.0/gatk-4.6.1.0.zip
 unzip gatk-4.6.1.0.zip
@@ -99,7 +99,7 @@ Optional (if Python issues arise):
 sudo ln -s /usr/bin/python3 /usr/bin/python
 ```
 
-4. BWA v0.7.17
+### 4. BWA v0.7.17
 ```bash
 wget https://github.com/lh3/bwa/releases/download/v0.7.17/bwa-0.7.17.tar.bz2
 tar -xvjf bwa-0.7.17.tar.bz2
@@ -108,7 +108,7 @@ make
 ./bwa
 ```
 
-5. IGV v2.19.2
+### 5. IGV v2.19.2
 ```bash
 wget https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_Linux_2.19.2_WithJava.zip
 unzip IGV_Linux_2.19.2_WithJava.zip
@@ -116,7 +116,7 @@ chmod +x IGV_2.19.2/igv.sh
 ./IGV_2.19.2/igv.sh
 ```
 
-6. Reference Genome (hg38)
+### 6. Reference Genome (hg38)
 ```bash
 wget http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz
 gunzip hg38.fa.gz
@@ -180,13 +180,12 @@ IGV Integration: Automatically launches IGV with the aligned BAM and VCF files.
 ---
 
 ## Author
-
-```
 Project Context:
 This pipeline was developed and delivered as part of my Teaching Assistant (TA) duties for the MTech course on Cancer Genomics and AI/ML applications. The primary objective was to guide postgraduate students through a complete, hands-on bioinformatics workflow — from raw sequencing reads to variant identification — using industry-standard tools and reference datasets.
 
 For a detailed walkthrough of the entire teaching session and pipeline, check out the [presentation here] (https://www.canva.com/design/DAGiDpisKuw/cWGQ3FZ0061D96Ligi2svg/edit?utm_content=DAGiDpisKuw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
+```
 Soumik Roy  
 M.Tech in Medical BioTech  
 Email: [bt23mtech11010.iith.ac.in]  
