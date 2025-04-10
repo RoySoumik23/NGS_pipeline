@@ -96,6 +96,6 @@ variant-calling-pipeline/
 Soumik Roy
 M.Tech in Biology, IIT Hyderabad
 Dissertation Focus: AI/ML in Cancer Genomics
-Email: [your_email@example.com]
+Email: [bt23mtech11010.iith.ac.in]
 GitHub: github.com/RoySoumik23
 ```
