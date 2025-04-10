@@ -76,6 +76,6 @@ This sequence outlines a standard NGS workflow for processing raw reads, perform
 
 These scripts can be executed individually for specific tasks or used in combination depending on your needs. However, to run the full pipeline from start to finish, refer to the `whole_pipeline.sh` script located in the main directory.
 
-The `whole_pipeline.sh` script will call all necessary steps sequentially, ensuring that the entire NGS analysis workflow is performed correctly.
+The [`whole_pipeline.sh`](https://github.com/RoySoumik23/NGS_pipeline/blob/main/whole_pipeline.sh) script will call all necessary steps sequentially, ensuring that the entire NGS analysis workflow is performed correctly.
 
 ---
