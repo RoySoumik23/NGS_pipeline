@@ -196,7 +196,7 @@ IGV Integration: Automatically launches IGV with the aligned BAM and VCF files.
 ## Project Context
 This pipeline was developed and delivered as part of my Teaching Assistant (TA) duties for the MTech course on Cancer Genomics and AI/ML applications. The primary objective was to guide postgraduate students through a complete, hands-on bioinformatics workflow — from raw sequencing reads to variant identification — using industry-standard tools and reference datasets.
 
-For a detailed walkthrough of the entire teaching session and pipeline, check out the presentation here: [https://www.canva.com/design/DAGiDpisKuw/cWGQ3FZ0061D96Ligi2svg/edit?utm_content=DAGiDpisKuw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton]
+For a detailed walkthrough of the entire teaching session and pipeline, check out the [presentation here.](https://www.canva.com/design/DAGiDpisKuw/cWGQ3FZ0061D96Ligi2svg/edit?utm_content=DAGiDpisKuw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Author
 ```
