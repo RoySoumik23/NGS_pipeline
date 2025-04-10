@@ -1,4 +1,4 @@
-# The hg38 (also known as GRCh38) is the 38th and latest major build of the Homo sapiens reference genome released by the Genome Reference Consortium (GRC).
+The hg38 (also known as GRCh38) is the 38th and latest major build of the Homo sapiens reference genome released by the Genome Reference Consortium (GRC).
 
 ### 🔍 Key Highlights:
 ```
