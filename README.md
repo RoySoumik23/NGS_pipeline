@@ -58,12 +58,12 @@ This repository contains a complete and modular **shell-scripted bioinformatics 
 
 Clone this repository and edit your sample names and paths in the script.
 
-```bash
+
 git clone https://github.com/your-username/variant-calling-pipeline.git
 cd variant-calling-pipeline
 chmod +x variant_pipeline.sh
 ./variant_pipeline.sh
-```bash
+
 
 Ensure all required tools are available in your PATH, or modify the script to set tool paths explicitly.
 
