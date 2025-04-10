@@ -118,7 +118,7 @@ variant-calling-pipeline/
 ```
 ## 👨‍💻 Author
 ```
-Soumik Roy
+## Soumik Roy
 M.Tech in Biology, IIT Hyderabad
 Dissertation Focus: AI/ML in Cancer Genomics
 Email: [bt23mtech11010.iith.ac.in]
