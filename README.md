@@ -19,6 +19,32 @@ This repository contains a complete and modular **shell-scripted bioinformatics 
 8. **Visualization** – Open results in IGV
 
 ---
+📁 Project Directory Structure
+bash
+Copy
+Edit
+NGS_pipeline/
+├── Analysis/                # Final outputs and analysis results
+│   └── Scripts/            # All pipeline and shell scripts
+│
+├── FastQ/                  # Input FASTQ files
+│   └── Results/            # Output of FastQC analysis
+│
+├── Software/               # All required tools and software (local installations)
+│   ├── bwa-0.7.17/
+│   ├── gatk-4.6.1.0/
+│   ├── samtools-1.21/
+│   └── fastqc_v0.12.1/
+│
+├── Genome/                 # Reference genome files and related indexes
+│   ├── hg38.fa             # Reference FASTA (GRCh38/hg38)
+│   ├── hg38.fa.fai         # FASTA index (samtools)
+│   ├── hg38.dict           # Sequence dictionary (GATK)
+│   ├── hg38.fa.bwt         # BWA index files (.bwt, .pac, .ann, etc.)
+│   └── ...                 # Other index files (.amb, .sa, etc.)
+│
+└── README.md               # Project overview and usage instructions
+---
 
 ## 🛠️ Tools Used
 
