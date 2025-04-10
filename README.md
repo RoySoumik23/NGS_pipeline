@@ -1,6 +1,6 @@
 # NGS_pipeline
 
-# Variant Calling Bioinformatics Pipeline
+## 🔬 Variant Calling Bioinformatics Pipeline
 
 This repository contains a complete and modular **shell-scripted bioinformatics pipeline** to process raw NGS data (FASTQ) into interpretable mutation and somatic variant calls (VCF), and finally visualize them in **IGV**. The pipeline integrates industry-standard tools like **FastQC, BWA, Samtools, GATK**, and supports automated execution from start to finish.
 
@@ -127,11 +127,6 @@ If any file requires executable permissions:
 ```bash
 chmod +x <file_name>
 ```
-
-TA Session Presentation  
-For a detailed walkthrough of the entire teaching session and pipeline, check out the presentation here:  
-[https://www.canva.com/design/DAGiDpisKuw/cWGQ3FZ0061D96Ligi2svg/edit?utm_content=DAGiDpisKuw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGiDpisKuw/cWGQ3FZ0061D96Ligi2svg/edit?utm_content=DAGiDpisKuw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
-
 ---
 
 ## Input Requirements
@@ -189,6 +184,8 @@ IGV Integration: Automatically launches IGV with the aligned BAM and VCF files.
 ```
 Project Context:
 This pipeline was developed and delivered as part of my Teaching Assistant (TA) duties for the MTech course on Cancer Genomics and AI/ML applications. The primary objective was to guide postgraduate students through a complete, hands-on bioinformatics workflow — from raw sequencing reads to variant identification — using industry-standard tools and reference datasets.
+
+For a detailed walkthrough of the entire teaching session and pipeline, check out the [presentation here] (https://www.canva.com/design/DAGiDpisKuw/cWGQ3FZ0061D96Ligi2svg/edit?utm_content=DAGiDpisKuw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 Soumik Roy  
 M.Tech in Medical BioTech  
